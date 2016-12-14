@@ -1,0 +1,24 @@
+{
+    "name": "kd/test1.dev",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "kdes70",
+            "email": "kdes70@mail.ru"
+        }
+    ],
+    "require": {},
+    "autoload": {
+        "psr-0": {
+            "MyVendor": "lib/",
+            "MyPackage": "includes/"
+        },
+        "files": [
+            "functions/functions.php",
+            "functions/db_connect.php",
+            "functions/FileJson.php",
+            "functions/ImportDataInDb.php",
+            "functions/Recursive.php"
+        ]
+    }
+}
